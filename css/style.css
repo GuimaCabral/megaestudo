@@ -1,0 +1,146 @@
+/*reset*/
+
+* {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+ }
+
+ body {
+    background-color: rgb(44, 44, 44);
+ }
+
+/*widget - titulo*/
+.titulo_pagina_dark {
+    width: 100vw;
+    height: 100px;
+    background-color: gray;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+    border-bottom: 3px solid white;
+    position: fixed;
+}
+
+.titulo_pagina_dark,
+.titulo_pagina_dark h1 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.titulo_pagina_dark h1 {
+    font-weight: 800;
+    color: #fff;
+}
+
+.titulo_pagina_numero_dark {
+    background-color: rgb(70, 70, 70);
+    height: inherit;
+    padding: 0px 20px 0px 20px;
+}
+
+.titulo_pagina_texto_dark {
+    width: inherit;
+    background-color: gray;
+    height: inherit;
+    padding: 0px 0px 0px 20px;
+}
+
+.botoes {
+    width: inherit;
+    display: flex;
+    justify-content: end;
+    padding: 0px 97px 0px 0px;
+}
+
+.botao {
+    background-color: #fff;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 1rem;
+    border: 3px solid rgb(70, 70, 70);
+}
+.botao a {
+    text-decoration: none;
+    color: #000;
+}
+
+.botao p {
+    text-align: center;
+    width:80px;
+}
+
+.botao:hover {
+    cursor: pointer;
+    background-color: rgb(88, 88, 88);
+    color: #fff;
+}
+
+/*main*/
+main {
+    padding-top: 105px;
+}
+
+.tags-dark {
+    color: #fff;
+    margin: 50px 97px 0px 97px;
+}
+
+.tags-title {
+    text-transform: uppercase;
+    color: #000;
+    background-color: #fff;
+    width: 310px;
+    border-radius:2rem;
+    padding: 7px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.tags-container {
+    background-color: red;
+}
+
+.tags-dark ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 300px;
+}
+
+.tags-container li {
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.tags-dark .tags-use-title {
+    min-width: 35px;
+    color: #ffffff;
+    font-size: 10px;
+    background-color: #686868;
+    margin-right: 25px;
+    padding: 15px;
+    border-radius: 0.8rem;
+    font-size:20px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tags-sintax {
+    min-width: 195px;
+    color: #000;
+    font-size: 10px;
+    background-color: #e4e4e4;
+    margin-right: 25px;
+    padding: 6px 20px 10px 6px;
+    border-radius: 0.4rem;
+    font-size: 20px;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
